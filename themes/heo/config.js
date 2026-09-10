@@ -20,12 +20,12 @@ const CONFIG = {
   HEO_COLOR_TEXT: '#111827',
   HEO_COLOR_TEXT_SECONDARY: '#4b5563',
 
-  HEO_SITE_CREATE_TIME: '2021-09-21', // 建站日期，用于计算网站运行的第几天
+  HEO_SITE_CREATE_TIME: '2020-05-01', // 建站日期，用于计算网站运行的第几天
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
-    { title: '欢迎来到我的博客', url: 'https://blog.tangly1024.com' },
-    { title: '访问文档中心获取更多帮助', url: 'https://docs.tangly1024.com' }
+    { title: '欢迎来到我的博客', url: 'https://jonathanlv.com' },
+    { title: '', url: '' }
   ],
 
   // 英雄区左右侧组件颠倒位置
@@ -54,28 +54,22 @@ const CONFIG = {
   //   HERO_RECOMMEND_COVER: 'https://bing.img.run/uhd.php', // 英雄区右侧图片
 
   // 英雄区右侧推荐文章遮罩控制
-  HEO_HERO_RECOMMEND_COVER_ENABLE: false, // 是否显示推荐文章遮罩图片，true显示遮罩需点击查看，false直接显示推荐文章
+  HEO_HERO_RECOMMEND_COVER_ENABLE: true, // 是否显示推荐文章遮罩图片，true显示遮罩需点击查看，false直接显示推荐文章
 
   // 右侧个人资料卡牌欢迎语，点击可自动切换
   HEO_INFOCARD_GREETINGS: [
-    '你好！我是',
-    '🔍 分享与热心帮助',
-    '🤝 专修交互与设计',
-    '🏃 脚踏实地行动派',
-    '🏠 智能家居小能手',
-    '🤖️ 数码科技爱好者',
-    '🧱 团队小组发动机'
+    
   ],
 
   // 个人资料底部按钮
   HEO_INFO_CARD_URL1: '/about',
   HEO_INFO_CARD_ICON1: 'fas fa-user',
-  HEO_INFO_CARD_URL2: 'https://github.com/tangly1024',
+  HEO_INFO_CARD_URL2: '',
   HEO_INFO_CARD_ICON2: 'fab fa-github',
   HEO_INFO_CARD_ICON_ORCID: 'fab fa-orcid',
   HEO_INFO_CARD_ICON_CSDN: 'fab fa-csdn',
   HEO_INFO_CARD_ICON_JUEJIN: 'fab fa-juejin',
-  HEO_INFO_CARD_URL3: 'https://www.tangly1024.com',
+  HEO_INFO_CARD_URL3: 'https://www.jonathanlv.com',
   HEO_INFO_CARD_TEXT3: '了解更多',
 
   // 用户技能图标
